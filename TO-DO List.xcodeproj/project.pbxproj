@@ -15,6 +15,12 @@
 		4186931126F7ED260040953C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4186930F26F7ED260040953C /* LaunchScreen.storyboard */; };
 		4186931C26F7ED270040953C /* cognitiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4186931B26F7ED270040953C /* cognitiveTests.swift */; };
 		4186932726F7ED270040953C /* cognitiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4186932626F7ED270040953C /* cognitiveUITests.swift */; };
+		4186933826F7F0DA0040953C /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4186933726F7F0DA0040953C /* TaskViewController.swift */; };
+		41A64087270DED0D00CBCA3F /* calculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A64086270DED0D00CBCA3F /* calculateViewController.swift */; };
+		41A6408C270E7E7000CBCA3F /* chatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A6408B270E7E6F00CBCA3F /* chatViewController.swift */; };
+		41FF701727099BA200676099 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FF701627099BA200676099 /* SettingsViewController.swift */; };
+		41FF70DC270A39CB00676099 /* ApiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FF70DB270A39CB00676099 /* ApiViewController.swift */; };
+		41FF70E9270A68F000676099 /* calcuatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FF70E8270A68F000676099 /* calcuatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		4186932226F7ED270040953C /* cognitiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cognitiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4186932626F7ED270040953C /* cognitiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cognitiveUITests.swift; sourceTree = "<group>"; };
 		4186932826F7ED270040953C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4186933726F7F0DA0040953C /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		41A64086270DED0D00CBCA3F /* calculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculateViewController.swift; sourceTree = "<group>"; };
+		41A6408B270E7E6F00CBCA3F /* chatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatViewController.swift; sourceTree = "<group>"; };
+		41FF701627099BA200676099 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		41FF70DB270A39CB00676099 /* ApiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiViewController.swift; sourceTree = "<group>"; };
+		41FF70E8270A68F000676099 /* calcuatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calcuatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,12 @@
 				4186930D26F7ED260040953C /* Assets.xcassets */,
 				4186930F26F7ED260040953C /* LaunchScreen.storyboard */,
 				4186931226F7ED260040953C /* Info.plist */,
+				4186933726F7F0DA0040953C /* TaskViewController.swift */,
+				41FF701627099BA200676099 /* SettingsViewController.swift */,
+				41FF70DB270A39CB00676099 /* ApiViewController.swift */,
+				41FF70E8270A68F000676099 /* calcuatorViewController.swift */,
+				41A64086270DED0D00CBCA3F /* calculateViewController.swift */,
+				41A6408B270E7E6F00CBCA3F /* chatViewController.swift */,
 			);
 			path = cognitive;
 			sourceTree = "<group>";
@@ -206,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 418692FC26F7ED250040953C /* Build configuration list for PBXProject "cognitive" */;
+			buildConfigurationList = 418692FC26F7ED250040953C /* Build configuration list for PBXProject "TO-DO List" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -259,8 +277,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4186930926F7ED250040953C /* ViewController.swift in Sources */,
+				41FF70DC270A39CB00676099 /* ApiViewController.swift in Sources */,
+				4186933826F7F0DA0040953C /* TaskViewController.swift in Sources */,
+				41A6408C270E7E7000CBCA3F /* chatViewController.swift in Sources */,
 				4186930526F7ED250040953C /* AppDelegate.swift in Sources */,
+				41FF701727099BA200676099 /* SettingsViewController.swift in Sources */,
+				41A64087270DED0D00CBCA3F /* calculateViewController.swift in Sources */,
 				4186930726F7ED250040953C /* SceneDelegate.swift in Sources */,
+				41FF70E9270A68F000676099 /* calcuatorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,7 +574,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		418692FC26F7ED250040953C /* Build configuration list for PBXProject "cognitive" */ = {
+		418692FC26F7ED250040953C /* Build configuration list for PBXProject "TO-DO List" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4186932926F7ED270040953C /* Debug */,
