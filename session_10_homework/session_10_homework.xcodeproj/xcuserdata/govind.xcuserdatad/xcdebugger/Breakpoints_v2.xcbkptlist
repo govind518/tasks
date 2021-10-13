@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8129240C-FF8B-44D8-899B-BB96A14F761B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8546474-5EB8-45CF-BDF3-4B369309DFB1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "session_10_homework/tableview_accesory.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "E8546474-5EB8-45CF-BDF3-4B369309DFB1 - 97e1124e89086d1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "session_10_homework.tableview_accesory.addrows() -&gt; ()"
+                  moduleName = "session_10_homework"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/govind/Desktop/New111/cognitivecloud/cognitive/session_10_homework/session_10_homework/tableview_accesory.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "169">
+               </Location>
+               <Location
+                  uuid = "E8546474-5EB8-45CF-BDF3-4B369309DFB1 - 23eb22e13b0c343c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in session_10_homework.tableview_accesory.addrows() -&gt; ()"
+                  moduleName = "session_10_homework"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/govind/Desktop/New111/cognitivecloud/cognitive/session_10_homework/session_10_homework/tableview_accesory.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "202">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3741A4C-75D2-4571-8BDC-49B3F357820D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "session_10_homework/tableview_accesory.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

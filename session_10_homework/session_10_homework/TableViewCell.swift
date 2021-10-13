@@ -1,23 +1,29 @@
-//
-//  TableViewCell.swift
-//  session_10_homework
-//
-//  Created by Govind on 10/10/21.
-//
+
 
 import UIKit
+protocol eventacion : class {
+    func eventhandler(atcell cell : UITableViewCell)
+}
 
 class TableViewCell: UITableViewCell {
-
+    
+    weak var eventdelegate : eventacion?
+    var callbackhandler : ((_ cell : UITableViewCell) -> Void)?
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+       
     }
-
+   
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
+      
     }
     
+    
+    @IBAction func Updateuiaction(_ sender: Any) {
+        print("update ui butoon taped")
+        //eventdelegate?.eventhandler(atcell : self)
+        self.callbackhandler?(self)
+    }
 }
